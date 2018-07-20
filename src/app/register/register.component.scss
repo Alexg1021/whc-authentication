@@ -1,0 +1,19 @@
+#RegisterComponent{
+  background: lightblue;
+  min-height: 100vh;
+  display: table;
+  width:100%;
+
+  .vert-align{
+    display: table-cell;
+    vertical-align: middle;
+    align-items: center;
+
+    .register-form{
+      background: #fff;
+      padding: 20px;
+      border-radius: 4px;
+
+    }
+  }
+}
